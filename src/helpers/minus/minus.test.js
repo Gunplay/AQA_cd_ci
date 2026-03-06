@@ -6,6 +6,6 @@ describe("minus", function () {
   });
 
   test("negative", () => {
-    expect(minus(-5, -5)).toBe(1);
+    expect(minus(-5, -5)).toBe(0);
   });
 });
